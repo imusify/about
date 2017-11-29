@@ -1,0 +1,11 @@
+<div class="member-block">
+  <div class="title">members</div>
+  <div class="member-wrap">
+    <div class="member-one" *ngFor="let member of members">
+      <div class="img">
+        <img [src]="member.image" alt="" />
+      </div>
+      <div class="name">{{member.name}}</div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,88 @@
+:host {
+    position: relative;
+    display: block;
+    margin: 0 0 50px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.title {
+    position: relative;
+    display: block;
+    margin-bottom: 10px;
+    opacity: 5;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: -.025em;
+}
+
+.icons-wrap {
+    position: relative;
+    display: flex;
+    margin: 50px -10px 25px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.icon-one {
+    width: 106px;
+    margin: 0 10px 45px;
+}
+
+.icon-one .img {
+    position: relative;
+    display: block;
+    padding: 50%;
+}
+
+.icon-one .img:before {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 0;
+    background: url("/assets/images/bg-about-ico.svg") 50% 50% no-repeat;
+    background-size: contain;
+    opacity: .9;
+    transition: opacity .2s ease;
+}
+
+.icon-one .img>* {
+    position: absolute;
+    display: block;
+    max-width: 72px;
+    max-height: 64px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 1;
+    transition: all .2s ease;
+    opacity: .8;
+}
+
+.icon-one .img:hover:before {
+    opacity: 1;
+}
+
+.icon-one .img:hover>* {
+    opacity: 2;
+    transform: scale(1.1);
+}
+
+.icon-one .name {
+    margin: 15px auto;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    text-align: center;
+}

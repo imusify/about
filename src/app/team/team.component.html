@@ -1,0 +1,17 @@
+<div class="title">team</div>
+<div class="peoples-wrap">
+  <ng-container *ngFor="let member of teamMembers">
+    <div class="people-one">
+      <div class="img">
+        <img [src]="member.image" alt="" />
+      </div>
+      <div class="name" [innerHTML]="member.name"></div>
+      <div class="position">{{member.position}}</div>
+      <div class="linkedin-github">
+        <a [href]="member.linkedin" target="_blank" class="linkedin-link"></a>
+        <a [href]="member.github" target="_blank" class="github-link"></a>
+      </div>
+    </div>
+    <div class="space-one"></div>
+  </ng-container>
+</div>

@@ -1,0 +1,113 @@
+:host {
+    position: relative;
+    display: block;
+    margin: 0 0 50px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.title {
+    position: relative;
+    display: block;
+    margin-bottom: 10px;
+    opacity: 5;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: -.025em;
+}
+
+.content-wrap {
+    position: relative;
+    display: flex;
+    margin: 50px -10px 25px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content-one {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 0 10px 25px;
+    box-sizing: border-box;
+    font-size: 0;
+    line-height: 0;
+}
+
+.content-one:after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 0;
+    background: url("/assets/images/bg-about-ico.svg") 50% 50% no-repeat;
+    background-size: contain;
+    opacity: .1;
+    transition: opacity .2s ease;
+}
+
+.content-one:hover:after {
+    opacity: .3;
+}
+
+.content-one:before {
+    content: '';
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    width: 0;
+}
+
+.content-one .content-inn {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.content-one .cnt-s100,
+.content-one .cnt-s60,
+.content-one .cnt-s60,
+.content-one .cnt-s24,
+.content-one .cnt-s20,
+.content-one .cnt-s12,
+.content-one .cnt-s40 {
+    position: relative;
+    display: inline-block;
+    vertical-align: baseline;
+    line-height: 1;
+}
+
+.content-one .cnt-s100 {
+    font-size: 100px;
+}
+
+.content-one .cnt-s60 {
+    font-size: 60px;
+}
+
+.content-one .cnt-s50 {
+    font-size: 50px;
+}
+
+.content-one .cnt-s40 {
+    font-size: 40px;
+}
+
+.content-one .cnt-s24 {
+    font-size: 24px;
+}
+
+.content-one .cnt-s20 {
+    font-size: 20px;
+}
+
+.content-one .cnt-s12 {
+    font-size: 12px;
+}
