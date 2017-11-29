@@ -1,0 +1,80 @@
+:host {
+    position: relative;
+    display: block;
+    margin: 0 0 50px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.title {
+    position: relative;
+    display: block;
+    margin-bottom: 10px;
+    opacity: 5;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: -.025em;
+}
+
+.info-text {
+    position: relative;
+    display: block;
+    padding: 0 35px;
+    box-sizing: border-box;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.info-text p {
+    margin: 0 0 30px;
+}
+
+.info-text-btn {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 296px;
+    height: 46px;
+    margin: 35px auto 0;
+    background: #04B404;
+    /*#EA3F4F;*/
+    border-radius: 3px;
+    font-size: 12px;
+    line-height: 46px;
+    letter-spacing: .05em;
+    color: #fff;
+}
+
+.info-text-btn:hover {
+    background: #01DF3A;
+    /*#e7283a; */
+}
+
+.info-text-btn:active {
+    background: #ed5664;
+}
+
+.github-imusify-btn {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 296px;
+    height: 46px;
+    margin: 35px auto 0;
+    background: #BDBDBD;
+    /*#2E2EFE;*/
+    border-radius: 3px;
+    font-size: 12px;
+    line-height: 46px;
+    letter-spacing: .05em;
+    color: #fff;
+}
+
+.github-imusify-btn:hover {
+    background: #D8D8D8;
+}
+
+.github-imusify-btn:active {
+    background: #8181F7;
+}

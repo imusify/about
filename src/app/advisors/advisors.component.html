@@ -1,0 +1,20 @@
+<div class="title">advisors</div>
+<div class="swiper-container peoples-wrap">
+  <div class="swiper-wrapper">
+    <div class="mySlides fade">
+      <div class="people-one swiper-slide" *ngFor="let advisor of advisors">
+        <div class="img">
+          <img [src]="advisor.image" alt="" />
+        </div>
+        <div class="name">{{advisor.name}}</div>
+        <div class="position">{{advisor.position}}</div>
+        <div class="linkedin-github">
+          <a [href]="advisor.linkedin" target="_blank" class="linkedin-link"></a>
+          <a [href]="advisor.github" target="_blank" class="github-link"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="clear"></div>
+  <div class="swiper-pagination"></div>
+</div>

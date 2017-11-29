@@ -1,0 +1,9 @@
+<div class="title">{{title}}</div>
+<div class="icons-wrap">
+  <div class="icon-one" *ngFor="let artist of artists">
+    <div class="img">
+      <img [src]="artist.image" />
+    </div>
+    <div class="name">{{artist.name}}</div>
+  </div>
+</div>

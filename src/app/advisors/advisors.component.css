@@ -1,0 +1,184 @@
+:host {
+    position: relative;
+    display: block;
+    margin: 0 0 50px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.title {
+    position: relative;
+    display: block;
+    margin-bottom: 10px;
+    opacity: 5;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: -.025em;
+}
+
+.swiper-wrapper {
+    width: 100%;
+    padding-left: -5px;
+}
+
+.swiper-wrapper .people-one {
+    float: left;
+    padding-right: 75px;
+}
+
+.peoples-wrap.swiper-container {
+    margin: 0 -50px 80px;
+    padding: 40px 0 60px;
+}
+
+.peoples-wrap.swiper-container .people-one {
+    margin: 0;
+}
+
+.peoples-wrap.swiper-container .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 8px;
+}
+
+.peoples-wrap.swiper-container .swiper-pagination-bullet {
+    background: #fff;
+}
+
+.peoples-wrap.swiper-container .swiper-pagination-bullet-active {
+    color: #fff;
+}
+
+.people-one {
+    position: relative;
+    display: block;
+    width: 164px;
+    margin: 0 20px 50px;
+}
+
+.people-one .img {
+    position: relative;
+    display: block;
+    width: 164px;
+    height: 164px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+}
+
+.people-one .img:hover {
+    overflow: visible;
+}
+
+.people-one:hover .img:before {
+    border-color: #fff;
+    }
+
+.people-one .img:before {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    box-sizing: border-box;
+    border: 4px solid transparent;
+    border-radius: 50%;
+    transition: border 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+.people-one .img img {
+    border-radius: 50%;
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.people-one .name {
+    width: 164px;
+    margin: 0 auto;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: .05em;
+}
+
+.people-one .position {
+    width: 164px;
+    margin: 0 auto;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: .05em;
+}
+
+.people-one .fb-link {
+    position: relative;
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 15px auto 0;
+    opacity: .4;
+    background: url("/assets/images/fb-ico.svg") 50% 50% no-repeat;
+    background-size: contain;
+    transition: opacity .218s ease-in-out;
+}
+
+.people-one .linkedin-github {
+    position: relative;
+    width: 55px;
+    height: 24px;
+    margin: 15px auto 0;
+}
+
+.people-one .linkedin-link {
+    float: left;
+    display: block;
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+    background: url("/assets/images/linkedin-ico.png") 50% 50% no-repeat;
+    background-size: contain;
+    transition: opacity .218s ease-in-out;
+}
+
+.people-one .github-link {
+    float: right;
+    display: block;
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+    background: url("/assets/images/github-ico.png") 50% 50% no-repeat;
+    background-size: contain;
+    transition: opacity .218s ease-in-out;
+}
+
+.mySlides {
+    width: 100%;
+    padding-left: 55px;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 3s;
+    animation-name: fade;
+    animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
